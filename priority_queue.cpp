@@ -115,6 +115,8 @@ int main()
     cout<<"queue2"<<endl;
     add(q2,n);
     result =  intersection(q1, q2, n);
+   if (result.back!=NULL)
     print(result);
+   else cout<<"matches not found"<<endl;
     
 }
